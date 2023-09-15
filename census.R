@@ -1,0 +1,6 @@
+library('readxl')
+table1 <- read_excel('census.xlsx', sheet = "Table 1")
+table2 <- read_excel('census.xlsx', sheet = "Table 2")
+table3 <- read_excel('census.xlsx', sheet = "Table 3")
+table4 <- read_excel('census.xlsx', sheet = "Table 4")
+table5 <- read_excel('census.xlsx', sheet = "Table 5")
